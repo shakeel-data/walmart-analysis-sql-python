@@ -39,6 +39,7 @@ Set up the environment by installing and importing key Python libraries such as 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
 
 #mysql toolkit
 import pymysql #this will work as adapter
