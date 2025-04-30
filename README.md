@@ -139,7 +139,7 @@ except:
 df.to_sql(name='walmart', con=engine_psql, if_exists='replace', index=False)
 ```
 
-##  Walmart Sales Analysis using SQL execution
+### 9. SQL Analysis: Walmart Sales
 
 ```sql
 SELECT * FROM walmart
@@ -163,7 +163,7 @@ SELECT MIN(quantity) FROM walmart;
 SELECT * FROM walmart;
 ```
 
-### 🔍 Data Exploration & Key Outcomes
+### 10. 🔍 Data Exploration & Key Outcomes
 To extract actionable insights, the following SQL statements were executed in response to targeted business questions.
 
 **Q.1 What is the Count of transactions by branch?**
@@ -364,7 +364,7 @@ ORDER BY 1, 3 DESC
 ![image](https://github.com/user-attachments/assets/e756de56-64a9-4240-ab9d-bd92eba9c270)
 
 
-## 📈 Data Visualization using python
+### 11. 📈 Data Visualization using python
 - Descriptive statistics and data visualizations offered deeper insights into the dataset.
 - Key summary metrics-such as mean, median, and standard deviation-were used to understand central tendencies and variability.
 - Additionally, visual tools like Barplot, Columnplot, Boxplot, and Heatmap were employed to explore data distributions, identify outliers, and analyze relationships between variables.
