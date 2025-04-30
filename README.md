@@ -12,9 +12,11 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ## 📂 Dataset used
 - Kaggle
-<a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
+  <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
 - Clean Data
-<a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart_clean_data.csv">clean_csv</a>
+  <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart_clean_data.csv">cleancsv</a>
+- Python
+  <a href=
 
 ## 🔄 Project Workflow
 1. Set Up Kaggle API
@@ -22,3 +24,132 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
       - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
+
+2. Download Walmart Sales Data
+   - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
+   - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
+   - **Storage**: Save the data in the `data/` folder for easy reference and access.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
