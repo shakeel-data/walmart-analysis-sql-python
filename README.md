@@ -32,7 +32,7 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
     
-### 3. Installing & Importing Dependencies 
+### 3. Importing Dependencies 
 Set up the environment by installing and importing key Python libraries such as Pandas, Matplotlib, Seaborn, plotly and 
 SQL such as pymysql, sqlalchemy, psycopg2
 
