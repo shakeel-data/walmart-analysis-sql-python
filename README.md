@@ -150,13 +150,13 @@ LIMIT 10;
 
 ```sql
 SELECT 
-	 payment_method,
-	 COUNT(*)
+     payment_method,
+     COUNT(*)
 FROM walmart
 GROUP BY payment_method
 
 SELECT 
-	COUNT(DISTINCT branch) 
+     COUNT(DISTINCT branch) 
 FROM walmart;
 
 SELECT MIN(quantity) FROM walmart;
@@ -171,8 +171,8 @@ To extract actionable insights, the following SQL statements were executed in re
 
 ```sql
 SELECT 
-	 Branch, 
-	 COUNT(*) AS transaction_count
+     Branch, 
+     COUNT(*) AS transaction_count
 FROM walmart
 GROUP BY Branch
 ORDER BY transaction_count DESC;
@@ -182,9 +182,9 @@ ORDER BY transaction_count DESC;
 
 ```sql
 SELECT 
-	 Payment_method,
-	 COUNT(*) as number_of_payments,
-	 SUM(quantity) as number_of_qty_sold
+     payment_method,
+     COUNT(*) as number_of_payments,
+     SUM(quantity) as number_of_qty_sold
 FROM walmart
 GROUP BY payment_method;
 ```
@@ -194,8 +194,8 @@ GROUP BY payment_method;
 
 ```sql
 SELECT 
-    category, 
-    ROUND(AVG(unit_price)::NUMERIC, 2) AS avg_unit_price
+     category, 
+     ROUND(AVG(unit_price)::NUMERIC, 2) AS avg_unit_price
 FROM walmart
 GROUP BY category;
 ```
@@ -204,8 +204,8 @@ GROUP BY category;
 
 ```sql
 SELECT 
-	 city, 
-	 ROUND(SUM(profit_margin)::Numeric, 2) AS total_profit
+     city, 
+     ROUND(SUM(profit_margin)::Numeric, 2) AS total_profit
 FROM walmart
 GROUP BY city
 ORDER BY total_profit DESC
@@ -229,8 +229,8 @@ LIMIT 1;
 
 ```sql
 SELECT 
-	 category, 
-	 ROUND(AVG(quantity)::NUMERIC, 2) AS avg_quantity
+     category, 
+     ROUND(AVG(quantity)::NUMERIC, 2) AS avg_quantity
 FROM walmart
 GROUP BY category;
 ```
@@ -239,8 +239,8 @@ GROUP BY category;
 
 ```sql
 SELECT 
-    EXTRACT(HOUR FROM TO_TIMESTAMP(time, 'HH24:MI:SS')) AS hour, 
-    ROUND(SUM(profit_margin)::NUMERIC, 2) AS total_profit
+     EXTRACT(HOUR FROM TO_TIMESTAMP(time, 'HH24:MI:SS')) AS hour, 
+     ROUND(SUM(profit_margin)::NUMERIC, 2) AS total_profit
 FROM walmart
 GROUP BY hour
 ORDER BY hour;
@@ -306,8 +306,8 @@ ORDER BY hour;
 
 ```sql
 SELECT 
-    DATE_TRUNC('month', TO_DATE(date, 'DD/MM/YY')) AS month, 
-    ROUND(SUM(profit_margin)::NUMERIC, 2) AS total_profit
+     DATE_TRUNC('month', TO_DATE(date, 'DD/MM/YY')) AS month, 
+     ROUND(SUM(profit_margin)::NUMERIC, 2) AS total_profit
 FROM walmart
 GROUP BY month
 ORDER BY month;
@@ -317,11 +317,11 @@ ORDER BY month;
 
 ```sql
 SELECT 
-	city,
-	category,
-	MIN(rating) as min_rating,
-	MAX(rating) as max_rating,
-	AVG(rating) as avg_rating
+     city,
+     category,
+     MIN(rating) as min_rating,
+     MAX(rating) as max_rating,
+     AVG(rating) as avg_rating
 FROM walmart
 GROUP BY 1, 2
 LIMIT 10
@@ -334,10 +334,10 @@ LIMIT 10
 WITH cte 
 AS
 (SELECT 
-	branch,
-	payment_method,
-	COUNT(*) as total_trans,
-	RANK() OVER(PARTITION BY branch ORDER BY COUNT(*) DESC) as rank
+      branch,
+      payment_method,
+      COUNT(*) as total_trans,
+      RANK() OVER(PARTITION BY branch ORDER BY COUNT(*) DESC) as rank
 FROM walmart
 GROUP BY 1, 2
 )
@@ -351,11 +351,11 @@ WHERE rank = 1
 
 ```sql
 SELECT
-	branch,
-	CASE 
-		WHEN EXTRACT(HOUR FROM(time::time)) < 12 THEN 'Morning'
-		WHEN EXTRACT(HOUR FROM(time::time)) BETWEEN 12 AND 17 THEN 'Afternoon'
-		ELSE 'Evening'
+     branch,
+     CASE 
+        WHEN EXTRACT(HOUR FROM(time::time)) < 12 THEN 'Morning'
+        WHEN EXTRACT(HOUR FROM(time::time)) BETWEEN 12 AND 17 THEN 'Afternoon'
+        ELSE 'Evening'
 	END day_time,
 	COUNT(*)
 FROM walmart
