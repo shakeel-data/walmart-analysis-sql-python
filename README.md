@@ -14,7 +14,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 - Kaggle
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
 - Clean Data
-  <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart_clean_data.csv">cleancsv</a>
+  <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart_clean_data.csv">clean.csv</a>
 - Python
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/walmart.ipynb">codes</a>
 - SQL
