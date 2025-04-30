@@ -16,25 +16,49 @@ This project is an end-to-end data analysis solution designed to extract critica
 - Clean Data
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart_clean_data.csv">cleancsv</a>
 - Python
-  <a href=
+  <a href="">codes</a>
+- SQL
+  <a href="">queries </a>
 
 ## 🔄 Project Workflow
-1. Set Up Kaggle API
+### 1. Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
       - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
 
-2. Download Walmart Sales Data
+### 2. Download Walmart Sales Data
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
     
+### 3. Installing & Importing Dependencies 
+Set up the environment by installing and importing key Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+#mysql toolkit
+import pymysql #this will work as adapter
+from sqlalchemy import create_engine
 
+#psql
+import psycopg2
+```
+### 4. Loading & Understanding the Dataset
+Imported the CSV file and reviewed basic structure, column names, and sample records to understand the data content.
 
+```python
+df = pd.read_csv('walmart-10k-sales-datasets/Walmart.csv', encoding_errors='ignore')
+df.head()
 
+![image](https://github.com/user-attachments/assets/60598938-0634-4b27-9094-85da0d78dffd)
+```
+### 5.  Statistical information
+Measures such as mean, median, minimum, maximum, standard deviation, and quartiles were computed to understand the central tendency and spread of each variable.
+![image](https://github.com/user-attachments/assets/99293339-0aa8-41e4-b0fe-185eaba54bad)
 
 
 
