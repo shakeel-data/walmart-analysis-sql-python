@@ -444,7 +444,7 @@ fig.show()
 - **Health and beauty** category showed high ratings but lower revenue
 
 ## 🧰 Platform & Tools Used
-- **Python** (Pandas, Matplotlib, Seaborn, plotly)
+- **Python** (pandas, matplotlib, seaborn, plotly)
 - **Visual Studio Code** (for Interactive environment)
 - **Jupyter Notebook** (for coding and presenting analysis)
 - **PostgreSQL** with pgAdmin (pymysql, sqlalchemy, psycopg2)
