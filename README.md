@@ -438,9 +438,9 @@ fig.show()
 
 ## 🌟 Key Insights & Highlights
 
-- Branch C had the highest gross income, signaling top performance
-- Ewallets were more commonly used than expected in high-performing branches
-- Health and beauty category showed high ratings but lower revenue
+- **Branch C** had the highest gross income, signaling top performance
+- **Ewallets** were more commonly used than expected in high-performing branches
+- **Health and beauty** category showed high ratings but lower revenue
 
 ## 🧰 Platform & Tools Used
 - **Python** (Pandas, Matplotlib, Seaborn)
