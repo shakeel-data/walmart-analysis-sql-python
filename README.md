@@ -127,7 +127,7 @@ Imported into PostgreSQL using pgAdmin
 
 ```python
 #psql connection
-# "mysql+pymysql://user:password@localhost:3306/db_name"
+# "mysql+pymysql://user:password@localhost:5432/db_name"
 engine_psql = create_engine("postgresql+psycopg2://postgres:pass@localhost:5432/walmart_db")
 
 try:
