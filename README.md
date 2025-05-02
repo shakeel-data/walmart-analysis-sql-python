@@ -1,4 +1,6 @@
 # 🏬 walmart Sales Analysis Project | PostreSQL + Python
+![image](https://github.com/user-attachments/assets/30fb6d18-fd1b-4158-832e-46109aca355d)
+
 Walmart, as the world’s largest retail corporation, plays a crucial role in shaping global retail trends and consumer behavior. With an extensive network of stores and a massive volume of daily transactions, Walmart sets the standard for operational efficiency, pricing strategy, and supply chain management in the retail sector. Analyzing Walmart’s sales data provides valuable insights into real-world retail dynamics, helping uncover patterns in customer preferences, regional performance, and product demand. Such analysis is essential for making informed, data-driven decisions that can improve sales, streamline operations, and drive business growth in the competitive retail landscape.
 
 ## 📘 Project Overview
@@ -10,7 +12,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 - Generate insights to improve sales strategy and customer targeting
 - Showcase a practical application of SQL and Python in solving real-world business problems
 
-## 📂 Dataset used
+## 📂 Data
 - Kaggle
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
 - Clean Data
