@@ -6,13 +6,13 @@ Walmart, as the world’s largest retail corporation, plays a crucial role in sh
 ## 📘 Project Overview
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
 
-## 🎯 Objectives
+## 🎯 Key Objectives
 - Understand transaction patterns across branches and cities
 - Identify low-performing areas, product categories, and payment methods
 - Generate insights to improve sales strategy and customer targeting
 - Showcase a practical application of SQL and Python in solving real-world business problems
 
-## 📂 Data
+## 📂 Data Sources
 - Kaggle
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
 - Clean Data
@@ -439,16 +439,14 @@ fig.show()
 ![image](https://github.com/user-attachments/assets/47aebb66-93ba-4028-a5a5-2caa486c4cd5)
 
 ## 🌟 Key Insights & Highlights
-
 - **Branch C** had the highest gross income, signaling top performance
 - **Ewallets** were more commonly used than expected in high-performing branches
 - **Health and beauty** category showed high ratings but lower revenue
 
-## 🧰 Platform & Tools Used
+## ⚙️ Technologies and Tools
 - **Python** (pandas, matplotlib, seaborn, plotly)
-- **Visual Studio Code** (for Interactive environment)
-- **Jupyter Notebook** (for coding and presenting analysis)
-- **PostgreSQL** with pgAdmin (pymysql, sqlalchemy, psycopg2)
+- **Visual Studio Code** (for Interactive environment for coding and presenting analysis)
+- **PostgreSQL** (pymysql, sqlalchemy, psycopg2)
 - **Kaggle** (dataset source)
 
 ## ✅ Conclusion
