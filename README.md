@@ -444,13 +444,13 @@ fig.show()
 - **Health and beauty** category showed high ratings but lower revenue
 
 ## ⚙️ Technologies and Tools
-- **Kaggle** (dataset source)
-- **PostgreSQL** (Relational database used for data storage and queries)
+- **Kaggle** –  Dataset source
+- **PostgreSQL** –  Relational database used for data storage and queries
   - Python libraries: ```pymysql```, ```sqlalchemy```, ```psycopg2```
-- **Visual Studio Code** (Interactive environment for coding and presenting analysis)
-- **Python** (Data manipulation, analysis and visualization)
+- **Visual Studio Code** Interactive environment for coding and presenting analysis
+- **Python** –  Data manipulation, analysis and visualization
   - Libraries: ```pandas```, ```matplotlib```, ```seaborn```, ```plotly```
 
 ## ✅ Conclusion
-This project analyzes Walmart's retail sales data using SQL and Python to uncover critical insights into transaction trends, branch performance, and customer behavior. By querying the data with SQL and exploring it through Python, the analysis identifies key business challenges—such as uneven regional sales, payment method preferences, and product-level pricing dynamics. The findings highlight operational inefficiencies and suggest data-driven strategies to optimize sales performance, customer satisfaction, and overall business growth. This project demonstrates the power of combining data analytics and domain knowledge to solve real-world retail challenges.
+This project analyzes Walmart's retail sales data using **SQL and Python** to uncover critical insights into transaction trends, branch performance, and customer behavior. By querying the data with SQL and exploring it through Python, the analysis identifies key business challenges—such as uneven regional sales, payment method preferences, and product-level pricing dynamics. The findings highlight operational inefficiencies and suggest data-driven strategies to optimize **sales performance, customer satisfaction, and overall business growth.** This project demonstrates the power of combining data analytics and domain knowledge to **solve real-world retail challenges.**
 
