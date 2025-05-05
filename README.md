@@ -446,7 +446,7 @@ fig.show()
 ## ⚙️ Technologies and Tools
 - **Kaggle** –  Dataset source
 - **PostgreSQL** – Relational database used for data storage and queries
-  - Python libraries: ```pymysql```, ```sqlalchemy```, ```psycopg2```
+  - Python libraries:```sqlalchemy```, ```psycopg2```
 - **Visual Studio Code** – Interactive environment for coding and presenting analysis
 - **Python** – Data manipulation, analysis and visualization
   - Libraries: ```pandas```, ```matplotlib```, ```seaborn```, ```plotly```
