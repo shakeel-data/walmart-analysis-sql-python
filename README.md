@@ -11,7 +11,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 - Identify low-performing areas, **product categories, and payment methods.**
 - Generate insights to improve **sales strategy and customer targeting.**
 - Showcase a practical application of **SQL and Python in solving real-world business problems.**
-- 
+
 ## 📂 Data Sources
 - Kaggle
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/Walmart.csv">csv</a>
