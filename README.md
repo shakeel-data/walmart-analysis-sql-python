@@ -23,7 +23,7 @@ This project is an end-to-end data analysis solution designed to extract critica
   <a href="https://github.com/shakeel-data/walmart-analysis-sql-python/blob/main/walmart.sql">queries </a>
 
 ## 🔄 Project Workflow
-### 1. Set Up Kaggle API
+### 1. 🔌 Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
