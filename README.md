@@ -29,7 +29,7 @@ This project is an end-to-end data analysis solution designed to extract critica
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
       - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
 
-### 2. Download Walmart Sales Data
+### 2. ⬇️ Download Walmart Sales Data
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
     
