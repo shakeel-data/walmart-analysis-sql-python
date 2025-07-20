@@ -1,4 +1,4 @@
-# 🏬 walmart Sales Analysis Project | PostgreSQL + Python
+# 🏬 walmart Sales Analysis Project | Python + PostgreSQL
 ![image](https://github.com/user-attachments/assets/30fb6d18-fd1b-4158-832e-46109aca355d)
 
 Walmart, as the world’s largest retail corporation, plays a crucial role in shaping **global retail trends and consumer behavior**. With an extensive network of stores and a massive volume of daily transactions, Walmart sets the standard for operational efficiency, pricing strategy, and supply chain management in the retail sector. Analyzing Walmart’s sales data provides valuable insights into real-world retail dynamics, helping uncover patterns in **customer preferences, regional performance, and product demand**. Such analysis is essential for making informed, data-driven decisions that can improve sales, streamline operations, and drive business growth in the **competitive retail landscape**.
