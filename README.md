@@ -59,7 +59,7 @@ df.head()
 ```
 ![image](https://github.com/user-attachments/assets/11750e0f-80c3-45cb-9d20-e854f8806745)
 
-### 5. Statistical information
+### 5. 📊 Statistical information
 Measures such as mean, median, minimum, maximum, standard deviation, and quartiles were computed to understand the central tendency and spread of each variable.
 
 ![image](https://github.com/user-attachments/assets/99293339-0aa8-41e4-b0fe-185eaba54bad)
