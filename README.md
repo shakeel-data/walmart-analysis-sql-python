@@ -443,7 +443,7 @@ fig.show()
 - **Ewallets** were more commonly used than expected in high-performing branches
 - **Health and beauty** category showed high ratings but lower revenue
 
-## ⚙️ Technologies and Tools
+## ⚙️ Technologies and Tools 
 - **Kaggle** –  Dataset source
 - **Visual Studio Code** – Interactive environment for coding and presenting analysis
 - **Python** – Data manipulation, analysis and visualization
